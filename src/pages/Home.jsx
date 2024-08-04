@@ -1,5 +1,12 @@
-const Home = () => {
- return <div>Home</div>
-}
+import { Link } from "react-router-dom";
 
-export default Home
+const Home = () => {
+  return (
+    <div>
+      <Link path="/register">REGISTER PAGE</Link>
+      <Link path="/login">LOGIN PAGE</Link>
+    </div>
+  );
+};
+
+export default Home;
