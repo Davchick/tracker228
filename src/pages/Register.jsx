@@ -65,9 +65,10 @@ const Register = () => {
   };
   return (
     <div className="flex space-x-7 h-screen items-center justify-center lg:justify-between">
-      <div className="relative hidden h-screen w-1/2 bg-bg-secondary lg:flex">
-        <div className="absolute rounded-t-full left-1/2 top-[calc(50%-110px)] bg-primary w-64 h-32 -translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute rounded-b-full bg-primary top-[calc(50%)] w-[260px] h-[135px] blur-md left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="relative hidden h-screen w-1/2 bg-bg-secondary lg:flex items-center justify-center">
+        <div className="z-10 absolute bg-primary bottom-1/2 w-64 h-32 rounded-t-full"></div>
+        <div className="absolute bg-primary size-64 rounded-full blur"></div>
+        <div className="bg-bg-secondary/60 h-1/2 w-full absolute bottom-0 blur "></div>
       </div>
 
       <div className="lg:w-1/2">
@@ -124,7 +125,7 @@ const Register = () => {
           </form>
           <p className="text-end mt-2 text-sm">
             Уже есть аккаунт?{" "}
-            <Link to="/login" className="hover:underline text-primary pl-1">
+            <Link to="/" className="hover:underline text-primary pl-1">
               Войти
             </Link>
           </p>
