@@ -64,7 +64,7 @@ const Register = () => {
     }
   };
   return (
-    <div className="flex space-x-7 h-screen items-center justify-center lg:justify-between">
+    <div className="px-5 flex space-x-7 h-screen items-center justify-center lg:justify-between">
       <div className="relative hidden h-screen w-1/2 bg-bg-secondary lg:flex items-center justify-center">
         <div className="z-10 absolute bg-primary bottom-1/2 w-64 h-32 rounded-t-full"></div>
         <div className="absolute bg-primary size-64 rounded-full blur"></div>

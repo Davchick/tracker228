@@ -65,7 +65,7 @@ const Login = () => {
     }
   };
   return (
-    <div className="flex space-x-7 h-screen items-center justify-center lg:justify-between">
+    <div className="px-5 flex flex-row-reverse space-x-7 h-screen items-center justify-center lg:justify-between">
       <div className="relative hidden h-screen w-1/2 bg-bg-secondary lg:flex items-center justify-center">
         <div className="z-10 absolute bg-primary top-1/2 w-64 h-32 rounded-b-full"></div>
         <div className="absolute bg-primary size-64 rounded-full blur-md"></div>
@@ -101,16 +101,16 @@ const Login = () => {
               })}
             />
 
-            <div className="flex flex-col  space-y-9">
-              {/* <Checkbox/> */}
+            <div className="flex items-center justify-between">
+              <Checkbox label="Оставаться в системе" />
               <button
-                className="btn font-bold text-xs w-min self-end"
+                className="btn font-bold text-xs w-min self-end px-9"
                 type="submit"
               >
                 Войти
               </button>
-              <div className="h-[1px] w-full bg-text/20"></div>
             </div>
+            <div className="h-[1px] w-full bg-text/20 space-y-9"></div>
           </form>
           <p className="text-start mt-2 text-sm">
             <Link to="" className="hover:underline text-primary pl-1">
