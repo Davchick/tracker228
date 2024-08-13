@@ -67,7 +67,7 @@
   }
 
   .form-input {
-    @apply relative;
+    @apply relative min-w-72;
   }
 
   .form-input input {
