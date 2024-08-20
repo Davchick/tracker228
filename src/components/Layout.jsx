@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <div className="h-screen flex">
       <Menu/>
-      <main className="px-16 pt-9">
+      <main className="ml-72 px-16 pt-9">
         <Outlet />
       </main>
     </div>

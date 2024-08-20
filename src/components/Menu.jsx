@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <section className="w-72 bg-bg-secondary flex flex-col">
+    <section className="w-72 fixed h-screen bg-bg-secondary flex flex-col">
       {/* Profile block */}
       <div className="px-8 pt-6 bg-bg h-28 flex space-x-2">
         <Link to="/projects">
