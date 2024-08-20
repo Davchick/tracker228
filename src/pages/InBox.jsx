@@ -4,6 +4,7 @@ const InBox = () => {
   return (
     <div className="flex flex-col space-y-6">
       <h2 className="font-bold text-2xl">InBox</h2>
+      
       <div className="relative mt-1">
         <input
           className="pl-14 pr-4 w-[490px] bg-bg-secondary rounded-lg h-11 placeholder-current"
@@ -38,6 +39,7 @@ const InBox = () => {
           </defs>
         </svg>
       </div>
+
       <div className="grid grid-cols-3 gap-5">
         <Project/>
         <Project/>
