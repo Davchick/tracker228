@@ -36,8 +36,6 @@
   }
 }
 
-
-
 @layer base {
   body {
     @apply font-kodchasan bg-bg text-text text-sm sm:text-base;
@@ -48,14 +46,14 @@
   }
 }
 
-/* UI elements */
+/* UI ELEMENTS */
 @layer components {
   .btn {
     @apply bg-primary text-white py-2 px-6 sm:px-5 rounded-lg transition-colors duration-150 hover:shadow-sm;
   }
 
   .title {
-    @apply text-lg md:text-2xl lg:text-3xl ;
+    @apply text-lg md:text-2xl lg:text-3xl;
   }
 
   .burger {
@@ -66,8 +64,12 @@
     @apply block h-[2px] bg-text rounded-xl transition-all;
   }
 
+  .nav-link {
+    @apply px-8 py-3 rounded-md flex space-x-3 items-center;
+  }
+
   .form-input {
-    @apply relative min-w-72;
+    @apply relative w-full;
   }
 
   .form-input input {
@@ -91,33 +93,19 @@
   }
 }
 
+/* COMMON EFFECTS */
 @layer utilities {
-
-  /* COMMON EFFECTS */
-  .link.active {
-    @apply text-white after:hidden p-3 bg-primary bg-gradient-to-tr from-accent rounded-md transition-colors duration-500;
-  }
-
-  .active-tab {
-    @apply border-b-2 border-accent rounded;
-  }
-
-  .active-tab svg {
-    @apply text-accent;
-  }
+  
 
   /* HOVER EFFECTS */
   @media (hover: hover) {
-    .link {
-      @apply inline-block relative after:absolute after:w-full after:h-0.5 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-[0.25s] after:ease-[ease-out] after:scale-x-0 after:left-0 after:bottom-0 hover:after:origin-bottom-left hover:after:scale-x-100;
-    }
 
     .btn {
       @apply hover:bg-gradient-to-tl hover:bg-accent hover:from-primary;
     }
 
-    .link.active {
-      @apply hover:bg-gradient-to-tl hover:bg-accent hover:from-primary;
+    .nav-link.active {
+      @apply bg-bg font-bold;
     }
 
     .icon-item {

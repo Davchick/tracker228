@@ -65,7 +65,7 @@ const Login = () => {
     }
   };
   return (
-    <div className="px-5 flex flex-row-reverse space-x-7 h-screen items-center justify-center lg:justify-between">
+    <div className="px-5 flex flex-row-reverse lg:space-x-7 h-screen items-center justify-center lg:justify-between">
       <div className="relative hidden h-screen w-1/2 bg-bg-secondary lg:flex items-center justify-center">
         <div className="z-10 absolute bg-primary top-1/2 w-64 h-32 rounded-b-full"></div>
         <div className="absolute bg-primary size-64 rounded-full blur-md"></div>
@@ -73,7 +73,7 @@ const Login = () => {
       </div>
 
       <div className="lg:w-1/2">
-        <div className="max-w-[532px] lg:pr-8 m-auto">
+        <div className="max-w-[532px] lg:pr-8 m-auto min-w-[305px]">
           <h1 className="title mb-4">Войти</h1>
           <p className="mb-6">
             Новый пользователь?{" "}

@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import PrivateRoute from "./components/PrivateRoute";
+/* import PrivateRoute from "./components/PrivateRoute"; */
 import Layout from "./components/Layout";
+import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
-/* import Home from "./pages/Home";
- */ import Profile from "./pages/Profile";
+import InBox from "./pages/InBox";
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,9 +13,10 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route index element={<Login />} />
         <Route path="" element={<Layout />}>
-          <Route element={<PrivateRoute />}>
-            <Route path="/profile" element={<Profile />} />
-          </Route>
+          {/* <Route element={<PrivateRoute />}> */}
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/inbox" element={<InBox />} />
+          {/* </Route> */}
 
           <Route path="*" element={<NotFound />} />
         </Route>
