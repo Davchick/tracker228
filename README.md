@@ -1,5 +1,5 @@
 ## How to run
-### `git clone https://github.com/ligrettox/E-Tracker-Front`
+### `git clone https://github.com/Davchick/tracker228`
 ### `cd E-Tracker-Front`
 ### `yarn`
 ### `yarn dev`
