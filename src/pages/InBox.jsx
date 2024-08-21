@@ -1,10 +1,11 @@
 import Project from "../components/Project";
+import data from "../data/projects.json";
 
 const InBox = () => {
   return (
     <div className="flex flex-col space-y-6">
       <h2 className="font-bold text-2xl">InBox</h2>
-      
+
       <div className="relative mt-1">
         <input
           className="pl-14 pr-4 w-[490px] bg-bg-secondary rounded-lg h-11 placeholder-current"
@@ -41,16 +42,22 @@ const InBox = () => {
       </div>
 
       <div className="grid grid-cols-3 gap-5">
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
+        {data.data.map((item) => (
+          <Project
+            managerAvatar={item.project_manager.avatar}
+            managerRole={item.project_manager.role}
+            managerName={item.project_manager.name}
+            completedTasks={item.completed_tasks}
+            deadline={item.nearby_task_deadline}
+            employees={item.employees}
+            allTasks={item.all_tasks}
+            expired={item.expired}
+            avatar={item.avatar}
+            name={item.name}
+            key={item.id}
+            id={item.id}
+          />
+        ))}
       </div>
     </div>
   );

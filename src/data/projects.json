@@ -1,0 +1,231 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Грузоперевозки",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Артём Артёмчес",
+        "role": "Авитолог"
+      },
+      "employees": ["Артём Артёмчес", "Максим Петропавлов"],
+      "all_tasks": 3,
+      "completed_tasks": 1,
+      "expired": 3,
+      "nearby_task_deadline": "2024-06-21T14:19:47.182565Z"
+    },
+    {
+      "id": 2,
+      "name": "Drug diller",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Nikitka228",
+        "role": "Suetolog"
+      },
+      "employees": ["Артём Артёмчес"],
+      "all_tasks": 3,
+      "completed_tasks": 0,
+      "expired": 3,
+      "nearby_task_deadline": "2024-06-24T14:19:35.863798Z"
+    },
+    {
+      "id": 3,
+      "name": "Доставка продуктов",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Олег Иванов",
+        "role": "Менеджер"
+      },
+      "employees": ["Олег Иванов", "Екатерина Смирнова"],
+      "all_tasks": 5,
+      "completed_tasks": 2,
+      "expired": 2,
+      "nearby_task_deadline": "2024-07-01T09:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Обслуживание сети",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Елена Петрова",
+        "role": "Инженер"
+      },
+      "employees": ["Елена Петрова", "Алексей Михайлов"],
+      "all_tasks": 7,
+      "completed_tasks": 5,
+      "expired": 1,
+      "nearby_task_deadline": "2024-06-30T11:45:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Маркетинговая кампания",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Анна Кузнецова",
+        "role": "Маркетолог"
+      },
+      "employees": ["Анна Кузнецова", "Иван Иванов"],
+      "all_tasks": 8,
+      "completed_tasks": 3,
+      "expired": 2,
+      "nearby_task_deadline": "2024-07-05T13:30:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Редизайн сайта",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Игорь Смирнов",
+        "role": "Дизайнер"
+      },
+      "employees": ["Игорь Смирнов", "Мария Сидорова"],
+      "all_tasks": 6,
+      "completed_tasks": 4,
+      "expired": 1,
+      "nearby_task_deadline": "2024-07-10T15:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Создание мобильного приложения",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Александр Николаев",
+        "role": "Разработчик"
+      },
+      "employees": ["Александр Николаев", "Ольга Павлова"],
+      "all_tasks": 10,
+      "completed_tasks": 7,
+      "expired": 0,
+      "nearby_task_deadline": "2024-08-01T17:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Обучение сотрудников",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Дмитрий Орлов",
+        "role": "Тренер"
+      },
+      "employees": ["Дмитрий Орлов", "Марина Сергеева"],
+      "all_tasks": 4,
+      "completed_tasks": 3,
+      "expired": 1,
+      "nearby_task_deadline": "2024-07-15T10:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Подготовка конференции",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Сергей Лебедев",
+        "role": "Организатор"
+      },
+      "employees": ["Сергей Лебедев", "Олеся Романова"],
+      "all_tasks": 12,
+      "completed_tasks": 8,
+      "expired": 2,
+      "nearby_task_deadline": "2024-09-01T09:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Анализ рынка",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Евгений Козлов",
+        "role": "Аналитик"
+      },
+      "employees": ["Евгений Козлов", "Ирина Васильева"],
+      "all_tasks": 5,
+      "completed_tasks": 2,
+      "expired": 3,
+      "nearby_task_deadline": "2024-07-20T14:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Ремонт оборудования",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Алексей Соколов",
+        "role": "Инженер"
+      },
+      "employees": ["Алексей Соколов", "Владимир Федоров"],
+      "all_tasks": 7,
+      "completed_tasks": 5,
+      "expired": 1,
+      "nearby_task_deadline": "2024-08-05T16:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Улучшение клиентского сервиса",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Татьяна Морозова",
+        "role": "Менеджер"
+      },
+      "employees": ["Татьяна Морозова", "Кирилл Антонов"],
+      "all_tasks": 9,
+      "completed_tasks": 6,
+      "expired": 0,
+      "nearby_task_deadline": "2024-07-25T12:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Разработка стратегии",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Иван Григорьев",
+        "role": "Стратег"
+      },
+      "employees": ["Иван Григорьев", "Елизавета Андреева"],
+      "all_tasks": 8,
+      "completed_tasks": 5,
+      "expired": 2,
+      "nearby_task_deadline": "2024-08-10T11:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Техническая поддержка",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Оксана Борисова",
+        "role": "Техник"
+      },
+      "employees": ["Оксана Борисова", "Виталий Захаров"],
+      "all_tasks": 6,
+      "completed_tasks": 4,
+      "expired": 1,
+      "nearby_task_deadline": "2024-08-15T13:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Запуск рекламной кампании",
+      "avatar": null,
+      "project_manager": {
+        "avatar": null,
+        "name": "Наталья Соколова",
+        "role": "Маркетолог"
+      },
+      "employees": ["Наталья Соколова", "Игорь Воробьев"],
+      "all_tasks": 10,
+      "completed_tasks": 7,
+      "expired": 0,
+      "nearby_task_deadline": "2024-08-20T14:30:00.000Z"
+    }
+  ],
+  "success": true,
+  "errors": null
+}

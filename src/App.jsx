@@ -8,7 +8,7 @@ import Login from "./pages/Login";
 import InBox from "./pages/InBox";
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tracker228">
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route index element={<Login />} />
